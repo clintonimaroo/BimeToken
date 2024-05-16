@@ -1,0 +1,9 @@
+name = "my-cv-assistant-worker"
+type = "javascript"
+
+account_id = "your-account-id"
+workers_dev = true
+
+[env.production]
+route = "your-domain.com/*"
+zone_id = "your-zone-id"
